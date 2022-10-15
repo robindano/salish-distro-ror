@@ -1,5 +1,4 @@
 class Brand < ApplicationRecord
-    belongs_to :catalog
-    has_many :categories
-    has_many :products, through: :categories 
+    has_many :products
+    has_many :categories, through: :products
 end

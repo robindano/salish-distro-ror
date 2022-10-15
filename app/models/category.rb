@@ -1,4 +1,5 @@
 class Category < ApplicationRecord
-    has_and_belongs_to_many :products
-    has_and_belongs_to_many :brands
+    has_many :products
+    has_many :brands, -> {distinct}, through: :products
+    belongs_to :catalog
 end

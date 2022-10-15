@@ -5,7 +5,7 @@ class CatalogsController < ApplicationController
   def index
     @catalogs = Catalog.all
 
-    render json: @catalogs
+    render json: @catalogs.to_json( {include: [categories: {include: [brands: {include: :products}]}]})
   end
 
   # GET /catalogs/1

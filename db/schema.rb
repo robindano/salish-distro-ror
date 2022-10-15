@@ -10,27 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_09_021147) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_14_235424) do
   create_table "brands", force: :cascade do |t|
-    t.integer "catalog_id"
-    t.integer "category_id"
     t.string "name"
     t.string "info"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "product_id"
+    t.string "logo"
   end
 
   create_table "catalogs", force: :cascade do |t|
-    t.integer "brand_id"
+    t.integer "category_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "categories", force: :cascade do |t|
-    t.integer "brand_id"
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "product_id"
+    t.integer "catalog_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -39,6 +40,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_09_021147) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "info"
   end
 
 end
