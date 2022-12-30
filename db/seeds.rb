@@ -21,31 +21,31 @@ categories = Category.create!([
 
 brands = Brand.create!([
     # Ejuice brands
-    {name: "Baton", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nictotine prodcuts."}, #1
-    {name: "Baton NTN", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nictotine prodcuts."}, #2
-    {name: "Northwests Finest", info: "Northwests Finest Vape Juice is a small collection of menthol and icy flavors that combine fruits and even a familiar popsicle flavor that you won’t be able to resist."}, #3
-    {name: "Pachamama", info: "Charlie’s founders worked tirelessly to create the world’s highest quality, most enjoyable, flavor-packed e-liquids."}, #4
-    {name: "Pachamama Salts", info: "Charlie’s founders worked tirelessly to create the world’s highest quality, most enjoyable, flavor-packed e-liquids."}, #5
-    {name: "Propaganda", info: "Propaganda E-Liquid is focused on simply satisfying your taste buds in a complex way, keeping you interested till the last drop."}, #6
-    {name: "LYF", info: "LYF E-liquids are a California based e-liquid manufacturing company which burst into scene with there mouth watering flavors of fusion fruits."}, #7
-    {name: "LYF Salts", info: "LYF E-liquids are a California based e-liquid manufacturing company which burst into scene with there mouth watering flavors of fusion fruits."}, #8
-    {name: "Lips and Drips", info: "Lips & Drips is created by premium eJuice manufacturers that strive to provide the entire vaping world with a little something for everyone."}, #9
-    {name: "Slammin", info: "As one of the leaders within the e-juice industry, Slammin is centered around simplicity, authenticity, and balance."}, #10
-    {name: "Slammin Ice", info: "As one of the leaders within the e-juice industry, Slammin is centered around simplicity, authenticity, and balance."}, #11
+    {name: "Baton", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nictotine prodcuts.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1-4NPZE9WCWEDhaYZcGGNc1LPgv3AJn7T"}, #1
+    {name: "Baton NTN", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nictotine prodcuts.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1-4NPZE9WCWEDhaYZcGGNc1LPgv3AJn7T"}, #2
+    {name: "Northwests Finest", info: "Northwests Finest Vape Juice is a small collection of menthol and icy flavors that combine fruits and even a familiar popsicle flavor that you won’t be able to resist.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1PPeeTiQ0jJzwXJqGC20uAIeS9SmP62fE"}, #3
+    {name: "Pachamama", info: "Charlie’s founders worked tirelessly to create the world’s highest quality, most enjoyable, flavor-packed e-liquids.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=14FRrph7eJnjNW6sa5WqoUuUHJyGX4hmn"}, #4
+    {name: "Pachamama Salts", info: "Charlie’s founders worked tirelessly to create the world’s highest quality, most enjoyable, flavor-packed e-liquids.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1gnBsRfhmoUPHo7dwwn7luiedYQuBgjHg"}, #5
+    {name: "Propaganda", info: "Propaganda E-Liquid is focused on simply satisfying your taste buds in a complex way, keeping you interested till the last drop.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=141NnBCAM8ZjVHChrpIvKQ4mTEbzEWxqJ"}, #6
+    {name: "LYF", info: "LYF E-liquids are a California based e-liquid manufacturing company which burst into scene with there mouth watering flavors of fusion fruits.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1VJupzkJ0zbO8Fs8bxaHRgssw1P274Ra0"}, #7
+    {name: "LYF Salts", info: "LYF E-liquids are a California based e-liquid manufacturing company which burst into scene with there mouth watering flavors of fusion fruits.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1VJupzkJ0zbO8Fs8bxaHRgssw1P274Ra0"}, #8
+    {name: "Lips and Drips", info: "Lips & Drips is created by premium eJuice manufacturers that strive to provide the entire vaping world with a little something for everyone.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1aFQF9AhUYjequyrZPKPbivOyDZSf0Ymh"}, #9
+    {name: "Slammin", info: "As one of the leaders within the e-juice industry, Slammin is centered around simplicity, authenticity, and balance.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1z9XvJM-4GIRikKD4q-YTUgmOWqStskeN"}, #10
+    {name: "Slammin Ice", info: "As one of the leaders within the e-juice industry, Slammin is centered around simplicity, authenticity, and balance.", category_id: 1, logo:"https://drive.google.com/uc?export=view&id=1z9XvJM-4GIRikKD4q-YTUgmOWqStskeN"}, #11
     
     # Disposable brands
-    {name: "Hyve 2500's", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!"}, #12 
-    {name: "HYVE 5K's", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!"}, #13
-    {name: "HYVE x SALISH", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!"}, #14
-    {name: "Pacha Syn 1500", info: "Featuring a full 4 ml of Pachamama's signature 50 mg non-tobacco nicotine, this disposable provides approximately 1500 puffs of pure satisfaction and bold Pachamama flavors!"}, #15
-    {name: "Hyde N Bar Mini", info: "With Bang premium flavors you'll treat yourself with every puff."}, #16
+    {name: "Hyve 2500's", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!", category_id: 2, logo:"https://drive.google.com/uc?export=view&id=1YwHTqKChXKeoh9F3XnLFKFHVkcVzSRKC"}, #12 
+    {name: "HYVE 5K's", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!", category_id: 2, logo:"https://drive.google.com/uc?export=view&id=1YwHTqKChXKeoh9F3XnLFKFHVkcVzSRKC"}, #13
+    {name: "HYVE x SALISH", info: "Introducing HYVE! A brand made of collaborating Companies committed to supporting the industry!", category_id: 2}, #14
+    {name: "Pacha Syn 1500", info: "Featuring a full 4 ml of Pachamama's signature 50 mg non-tobacco nicotine, this disposable provides approximately 1500 puffs of pure satisfaction and bold Pachamama flavors!", category_id: 2, logo:"https://drive.google.com/uc?export=view&id=10aB3FaJw1BSi1qFqQNpVVkeZBYxBda3h"}, #15
+    {name: "Hyde N Bar Mini", info: "With Bang premium flavors you'll treat yourself with every puff.", category_id: 2, logo:"https://drive.google.com/uc?export=view&id=16vqhl1i9IPv0onZXtXaMBegYE6z3fZzM"}, #16
 
     # Hardware brands
-    {name: "Baton", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nicotine products."}, #17
-    {name: "Vaporesso", info: "VAPORESSO’s goal has been to establish a smoke-free world while raising the quality of life for our users through innovation and experience."}, #18
-    {name: "Voopoo", info: "Voopoo is a global high-tech enterprise with technology innovation and customer service as its core competitiveness."}, #19
-    {name: "SMOK", info: "The world's most popular vapor brand dedicated to research and development."}, #20
-    {name: "Efest", info: "Efest focuses on bringing high quality chargers, Li-ion rechargeable batteries, and vape accessories to the electronic cigarette and vaping community."} #21
+    {name: "Baton", info: "Baton vapor is a world-renowned, usa-based manufacturer of premium next-generation nicotine products.", category_id: 3, logo:"https://drive.google.com/uc?export=view&id=1-4NPZE9WCWEDhaYZcGGNc1LPgv3AJn7T"}, #17
+    {name: "Vaporesso", info: "VAPORESSO’s goal has been to establish a smoke-free world while raising the quality of life for our users through innovation and experience.", category_id: 3, logo:"https://drive.google.com/uc?export=view&id=11waHnsME54E7ub5VEHhzougGtBZZPExK"}, #18
+    {name: "Voopoo", info: "Voopoo is a global high-tech enterprise with technology innovation and customer service as its core competitiveness.", category_id: 3, logo:"https://drive.google.com/uc?export=view&id=16lFP2aDvJwypQ3v_jrGmDClvwuW-47o5"}, #19
+    {name: "SMOK", info: "The world's most popular vapor brand dedicated to research and development.", category_id: 3, logo:"https://drive.google.com/uc?export=view&id=1COPnLKY4cO6awzPhy7qpYIXI5W2BZR5A"}, #20
+    {name: "Efest", info: "Efest focuses on bringing high quality chargers, Li-ion rechargeable batteries, and vape accessories to the electronic cigarette and vaping community.", category_id: 3, logo:"https://drive.google.com/uc?export=view&id=1mRrjyBuO3DTedtRj96IY_mOLq955x-eu"} #21
 ])
 
 
@@ -200,7 +200,7 @@ products = Product.create!([
     #Hyde N Bar Mini 2500's
     {name: "Blue Razz Ice", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
     {name: "Cotton Cloudz", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
-    {name: "Coconut Cream", info: "Available in 2500 Puffs - 50mg", category_id: 1, brand_id: 16},
+    {name: "Coconut Cream", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
     {name: "Fruit Punch", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
     {name: "Fresh Vanilla", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
     {name: "Mango Peach Apricot", info: "Available in 2500 Puffs - 50mg", category_id: 2, brand_id: 16},
