@@ -93,9 +93,6 @@ GEM
     io-console (0.5.11)
     irb (1.4.2)
       reline (>= 0.3.0)
-    jbuilder (2.11.5)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
     jsonapi-renderer (0.2.2)
     loofah (2.19.0)
       crass (~> 1.0.2)
@@ -183,7 +180,6 @@ DEPENDENCIES
   bootsnap
   debug
   image_processing (~> 1.2)
-  jbuilder
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4)
