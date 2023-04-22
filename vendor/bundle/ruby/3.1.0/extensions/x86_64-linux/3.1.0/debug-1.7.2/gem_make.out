@@ -1,0 +1,16 @@
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+/home/tylerc/.rbenv/versions/3.1.4/bin/ruby -I /home/tylerc/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-pf4xpj sitelibdir\=./.gem.20230422-8890-pf4xpj clean
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-pf4xpj sitelibdir\=./.gem.20230422-8890-pf4xpj
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/debug-1.7.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-pf4xpj sitelibdir\=./.gem.20230422-8890-pf4xpj install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230422-8890-pf4xpj/debug

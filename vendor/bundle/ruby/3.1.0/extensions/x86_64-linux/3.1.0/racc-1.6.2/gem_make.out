@@ -1,0 +1,17 @@
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+/home/tylerc/.rbenv/versions/3.1.4/bin/ruby -I /home/tylerc/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-rz9eiq sitelibdir\=./.gem.20230422-8890-rz9eiq clean
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-rz9eiq sitelibdir\=./.gem.20230422-8890-rz9eiq
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-rz9eiq sitelibdir\=./.gem.20230422-8890-rz9eiq install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230422-8890-rz9eiq/racc

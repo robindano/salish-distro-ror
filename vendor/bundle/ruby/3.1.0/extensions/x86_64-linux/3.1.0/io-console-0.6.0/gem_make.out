@@ -1,0 +1,19 @@
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+/home/tylerc/.rbenv/versions/3.1.4/bin/ruby -I /home/tylerc/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-zlflll sitelibdir\=./.gem.20230422-8890-zlflll clean
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-zlflll sitelibdir\=./.gem.20230422-8890-zlflll
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/tylerc/development/code/salish-distro-website/salish-distro-backend/vendor/bundle/ruby/3.1.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230422-8890-zlflll sitelibdir\=./.gem.20230422-8890-zlflll install
+/usr/bin/install -c -m 0755 console.so ./.gem.20230422-8890-zlflll/io
