@@ -3,8 +3,8 @@ class CreateBrands < ActiveRecord::Migration[7.0]
     create_table :brands do |t|
       t.integer :catalog_id
       t.integer :category_id
-      t.string :name
-      t.string :info
+      t.text :name
+      t.text :info
 
       t.timestamps
     end
